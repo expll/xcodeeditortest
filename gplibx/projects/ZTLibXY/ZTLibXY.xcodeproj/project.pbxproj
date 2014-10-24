@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEC754E519FA076600A220EC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC754E419FA076600A220EC /* Foundation.framework */; };
+		CEC754E819FA076600A220EC /* ZTLibXY-Prefix.pch in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEC754E719FA076600A220EC /* ZTLibXY-Prefix.pch */; };
+		CEC754EA19FA076600A220EC /* ZTLibXY.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CEC754E919FA076600A220EC /* ZTLibXY.h */; };
+		CEC754EC19FA076600A220EC /* ZTLibXY.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC754EB19FA076600A220EC /* ZTLibXY.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC754DF19FA076600A220EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CEC754E819FA076600A220EC /* ZTLibXY-Prefix.pch in CopyFiles */,
+				CEC754EA19FA076600A220EC /* ZTLibXY.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CEC754E119FA076600A220EC /* ZTLibXY.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = ZTLibXY.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC754E419FA076600A220EC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		CEC754E719FA076600A220EC /* ZTLibXY-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZTLibXY-Prefix.pch"; sourceTree = "<group>"; };
+		CEC754E919FA076600A220EC /* ZTLibXY.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTLibXY.h; sourceTree = "<group>"; };
+		CEC754EB19FA076600A220EC /* ZTLibXY.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTLibXY.m; sourceTree = "<group>"; };
+		CEC754F119FA076600A220EC /* ZTLibXYTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZTLibXYTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC754F419FA076600A220EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC754DE19FA076600A220EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC754E519FA076600A220EC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC754EE19FA076600A220EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC754D819FA076600A220EC = {
+			isa = PBXGroup;
+			children = (
+				CEC754E619FA076600A220EC /* ZTLibXY */,
+				CEC754F219FA076600A220EC /* ZTLibXYTests */,
+				CEC754E319FA076600A220EC /* Frameworks */,
+				CEC754E219FA076600A220EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC754E219FA076600A220EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC754E119FA076600A220EC /* ZTLibXY.dylib */,
+				CEC754F119FA076600A220EC /* ZTLibXYTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC754E319FA076600A220EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEC754E419FA076600A220EC /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEC754E619FA076600A220EC /* ZTLibXY */ = {
+			isa = PBXGroup;
+			children = (
+				CEC754E719FA076600A220EC /* ZTLibXY-Prefix.pch */,
+				CEC754E919FA076600A220EC /* ZTLibXY.h */,
+				CEC754EB19FA076600A220EC /* ZTLibXY.m */,
+			);
+			path = ZTLibXY;
+			sourceTree = "<group>";
+		};
+		CEC754F219FA076600A220EC /* ZTLibXYTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC754F319FA076600A220EC /* Supporting Files */,
+			);
+			path = ZTLibXYTests;
+			sourceTree = "<group>";
+		};
+		CEC754F319FA076600A220EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC754F419FA076600A220EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC754E019FA076600A220EC /* ZTLibXY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC754F719FA076600A220EC /* Build configuration list for PBXNativeTarget "ZTLibXY" */;
+			buildPhases = (
+				CEC754DD19FA076600A220EC /* Sources */,
+				CEC754DE19FA076600A220EC /* Frameworks */,
+				CEC754DF19FA076600A220EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTLibXY;
+			productName = ZTLibXY;
+			productReference = CEC754E119FA076600A220EC /* ZTLibXY.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		CEC754F019FA076600A220EC /* ZTLibXYTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC754FA19FA076600A220EC /* Build configuration list for PBXNativeTarget "ZTLibXYTests" */;
+			buildPhases = (
+				CEC754ED19FA076600A220EC /* Sources */,
+				CEC754EE19FA076600A220EC /* Frameworks */,
+				CEC754EF19FA076600A220EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZTLibXYTests;
+			productName = ZTLibXYTests;
+			productReference = CEC754F119FA076600A220EC /* ZTLibXYTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC754D919FA076600A220EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = giant;
+				TargetAttributes = {
+					CEC754E019FA076600A220EC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CEC754F019FA076600A220EC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = CEC754DC19FA076600A220EC /* Build configuration list for PBXProject "ZTLibXY" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CEC754D819FA076600A220EC;
+			productRefGroup = CEC754E219FA076600A220EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC754E019FA076600A220EC /* ZTLibXY */,
+				CEC754F019FA076600A220EC /* ZTLibXYTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC754EF19FA076600A220EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC754DD19FA076600A220EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC754EC19FA076600A220EC /* ZTLibXY.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC754ED19FA076600A220EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CEC754F519FA076600A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		CEC754F619FA076600A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		CEC754F819FA076600A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZTLibXY.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTLibXY/ZTLibXY-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CEC754F919FA076600A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ZTLibXY.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZTLibXY/ZTLibXY-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CEC754FB19FA076600A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZTLibXYTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CEC754FC19FA076600A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZTLibXYTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC754DC19FA076600A220EC /* Build configuration list for PBXProject "ZTLibXY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC754F519FA076600A220EC /* Debug */,
+				CEC754F619FA076600A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC754F719FA076600A220EC /* Build configuration list for PBXNativeTarget "ZTLibXY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC754F819FA076600A220EC /* Debug */,
+				CEC754F919FA076600A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CEC754FA19FA076600A220EC /* Build configuration list for PBXNativeTarget "ZTLibXYTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC754FB19FA076600A220EC /* Debug */,
+				CEC754FC19FA076600A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC754D919FA076600A220EC /* Project object */;
+}

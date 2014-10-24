@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE68E6C519FA75CA00787D8C /* AddFile.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68E6C419FA750E00787D8C /* AddFile.m */; };
+		CE68E6E119FA7F0800787D8C /* XcodeEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE68E6E019FA7F0800787D8C /* XcodeEditor.framework */; };
+		CE68E6E219FA7F1200787D8C /* XcodeEditor.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = CE68E6E019FA7F0800787D8C /* XcodeEditor.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CEC7547119FA01EC00A220EC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7547019FA01EC00A220EC /* main.m */; };
+		CEC7547419FA01EC00A220EC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7547319FA01EC00A220EC /* AppDelegate.m */; };
+		CEC7547619FA01EC00A220EC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEC7547519FA01EC00A220EC /* Images.xcassets */; };
+		CEC7547919FA01EC00A220EC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEC7547719FA01EC00A220EC /* MainMenu.xib */; };
+		CEC7548519FA01EC00A220EC /* gplibxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEC7548419FA01EC00A220EC /* gplibxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEC7547F19FA01EC00A220EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEC7546319FA01EC00A220EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEC7546A19FA01EC00A220EC;
+			remoteInfo = gplibx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CEC7550119FA09BA00A220EC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CE68E6E219FA7F1200787D8C /* XcodeEditor.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CE68E6C419FA750E00787D8C /* AddFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddFile.m; sourceTree = "<group>"; };
+		CE68E6C619FA7B5F00787D8C /* AddFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddFile.h; sourceTree = "<group>"; };
+		CE68E6E019FA7F0800787D8C /* XcodeEditor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeEditor.framework; path = "../../../Library/Developer/Xcode/DerivedData/xcode-editor-frolhzlkwqkjdqaoahfjymxepate/Build/Products/Debug/XcodeEditor.framework"; sourceTree = "<group>"; };
+		CEC7546B19FA01EC00A220EC /* gplibx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gplibx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC7546F19FA01EC00A220EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC7547019FA01EC00A220EC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEC7547219FA01EC00A220EC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEC7547319FA01EC00A220EC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEC7547519FA01EC00A220EC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEC7547819FA01EC00A220EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CEC7547E19FA01EC00A220EC /* gplibxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gplibxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC7548319FA01EC00A220EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEC7548419FA01EC00A220EC /* gplibxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gplibxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEC7546819FA01EC00A220EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE68E6E119FA7F0800787D8C /* XcodeEditor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7547B19FA01EC00A220EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEC7546219FA01EC00A220EC = {
+			isa = PBXGroup;
+			children = (
+				CE68E6E019FA7F0800787D8C /* XcodeEditor.framework */,
+				CEC7546D19FA01EC00A220EC /* gplibx */,
+				CEC7548119FA01EC00A220EC /* gplibxTests */,
+				CEC7546C19FA01EC00A220EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEC7546C19FA01EC00A220EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7546B19FA01EC00A220EC /* gplibx.app */,
+				CEC7547E19FA01EC00A220EC /* gplibxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEC7546D19FA01EC00A220EC /* gplibx */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7547219FA01EC00A220EC /* AppDelegate.h */,
+				CEC7547319FA01EC00A220EC /* AppDelegate.m */,
+				CE68E6C419FA750E00787D8C /* AddFile.m */,
+				CE68E6C619FA7B5F00787D8C /* AddFile.h */,
+				CEC7547519FA01EC00A220EC /* Images.xcassets */,
+				CEC7547719FA01EC00A220EC /* MainMenu.xib */,
+				CEC7546E19FA01EC00A220EC /* Supporting Files */,
+			);
+			path = gplibx;
+			sourceTree = "<group>";
+		};
+		CEC7546E19FA01EC00A220EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7546F19FA01EC00A220EC /* Info.plist */,
+				CEC7547019FA01EC00A220EC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEC7548119FA01EC00A220EC /* gplibxTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7548419FA01EC00A220EC /* gplibxTests.m */,
+				CEC7548219FA01EC00A220EC /* Supporting Files */,
+			);
+			path = gplibxTests;
+			sourceTree = "<group>";
+		};
+		CEC7548219FA01EC00A220EC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEC7548319FA01EC00A220EC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEC7546A19FA01EC00A220EC /* gplibx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC7548819FA01EC00A220EC /* Build configuration list for PBXNativeTarget "gplibx" */;
+			buildPhases = (
+				CEC7546719FA01EC00A220EC /* Sources */,
+				CEC7546819FA01EC00A220EC /* Frameworks */,
+				CEC7546919FA01EC00A220EC /* Resources */,
+				CEC7550119FA09BA00A220EC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gplibx;
+			productName = gplibx;
+			productReference = CEC7546B19FA01EC00A220EC /* gplibx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEC7547D19FA01EC00A220EC /* gplibxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEC7548B19FA01EC00A220EC /* Build configuration list for PBXNativeTarget "gplibxTests" */;
+			buildPhases = (
+				CEC7547A19FA01EC00A220EC /* Sources */,
+				CEC7547B19FA01EC00A220EC /* Frameworks */,
+				CEC7547C19FA01EC00A220EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEC7548019FA01EC00A220EC /* PBXTargetDependency */,
+			);
+			name = gplibxTests;
+			productName = gplibxTests;
+			productReference = CEC7547E19FA01EC00A220EC /* gplibxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEC7546319FA01EC00A220EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = giant;
+				TargetAttributes = {
+					CEC7546A19FA01EC00A220EC = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CEC7547D19FA01EC00A220EC = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CEC7546A19FA01EC00A220EC;
+					};
+				};
+			};
+			buildConfigurationList = CEC7546619FA01EC00A220EC /* Build configuration list for PBXProject "gplibx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEC7546219FA01EC00A220EC;
+			productRefGroup = CEC7546C19FA01EC00A220EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEC7546A19FA01EC00A220EC /* gplibx */,
+				CEC7547D19FA01EC00A220EC /* gplibxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEC7546919FA01EC00A220EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7547619FA01EC00A220EC /* Images.xcassets in Resources */,
+				CEC7547919FA01EC00A220EC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7547C19FA01EC00A220EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEC7546719FA01EC00A220EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7547419FA01EC00A220EC /* AppDelegate.m in Sources */,
+				CEC7547119FA01EC00A220EC /* main.m in Sources */,
+				CE68E6C519FA75CA00787D8C /* AddFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEC7547A19FA01EC00A220EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC7548519FA01EC00A220EC /* gplibxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEC7548019FA01EC00A220EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEC7546A19FA01EC00A220EC /* gplibx */;
+			targetProxy = CEC7547F19FA01EC00A220EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEC7547719FA01EC00A220EC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEC7547819FA01EC00A220EC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEC7548619FA01EC00A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CEC7548719FA01EC00A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CEC7548919FA01EC00A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/xcode-editor-frolhzlkwqkjdqaoahfjymxepate/Build/Products/Debug",
+					"$(PROJECT_DIR)/gplibx",
+				);
+				INFOPLIST_FILE = gplibx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CEC7548A19FA01EC00A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/xcode-editor-frolhzlkwqkjdqaoahfjymxepate/Build/Products/Debug",
+					"$(PROJECT_DIR)/gplibx",
+				);
+				INFOPLIST_FILE = gplibx/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CEC7548C19FA01EC00A220EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gplibxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gplibx.app/Contents/MacOS/gplibx";
+			};
+			name = Debug;
+		};
+		CEC7548D19FA01EC00A220EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = gplibxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gplibx.app/Contents/MacOS/gplibx";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEC7546619FA01EC00A220EC /* Build configuration list for PBXProject "gplibx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7548619FA01EC00A220EC /* Debug */,
+				CEC7548719FA01EC00A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC7548819FA01EC00A220EC /* Build configuration list for PBXNativeTarget "gplibx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7548919FA01EC00A220EC /* Debug */,
+				CEC7548A19FA01EC00A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEC7548B19FA01EC00A220EC /* Build configuration list for PBXNativeTarget "gplibxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEC7548C19FA01EC00A220EC /* Debug */,
+				CEC7548D19FA01EC00A220EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEC7546319FA01EC00A220EC /* Project object */;
+}

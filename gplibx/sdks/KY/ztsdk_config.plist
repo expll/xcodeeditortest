@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>config.domain.pay</key>
+    <string>http://pay.mztgame.com</string>
+	<key>config.domain.passport</key>
+    <string>http://passport.mztgame.com</string>
+	<key>config.domain.stat</key>
+	<string>http://stat.mztgame.com</string>
+	<key>config.appid</key>
+	<string>5204</string>
+	<key>config.appkey</key>
+	<string>173b1f6e83587fad7910e410a393c553</string>
+	<key>PAYMD5</key>
+	<string>3Afqjj7Z2U9Uj1rd2So3hF75jrRGVGmZ</string>
+</dict>
+</plist>
